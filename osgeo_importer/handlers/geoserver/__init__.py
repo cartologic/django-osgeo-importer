@@ -9,7 +9,7 @@ from osgeo_importer.importers import UPLOAD_DIR
 from geoserver.catalog import FailedRequestError, ConflictingDataError
 from geonode.geoserver.helpers import gs_catalog
 from geonode.upload.utils import make_geogig_rest_payload, init_geogig_repo
-from geonode.geoserver.helpers import get_sld_for, _style_contexts, _style_templates, save_style
+from geonode.geoserver.helpers import get_sld_for, save_style
 from geonode.people.models import Profile
 from geoserver.support import DimensionInfo
 from osgeo_importer.utils import increment_filename, database_schema_name
